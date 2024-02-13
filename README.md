@@ -46,7 +46,7 @@ All-in-all, I feel that what I produced for this project is a compromise between
 2. Implementation best practices; and
 3. Design exploration.
 
-The outcome is unfortunately only okay (not good) at showing off best practices and only okay (not good) at exploring the tangible interaction side of the design ideas we came up with together. I've had success in building things from scratch in other take-home projects, but in this one I don't feel that I properly managed the scope. In the future I would do two things during the kick-off meeting:
+The outcome is unfortunately only okay (not good) at showing off best practices and only okay (not good) at exploring the tangible interaction side of the design ideas we came up with together. I've had success in building things from scratch in other take-home projects, but in this one I don't feel that I properly managed the scope, both in my approach to the kickoff meeting and in my personal planning of execution. In the future I would do two things during the kick-off meeting:
 
 - Clarify at the start of the meeting what the project will be evaluated on. I only clarified this at the end of the meeting and was not expecting to be evaluated equally on the engineering and design exploration sides of the project.
 - Based on what is clarified, narrow the scope of the project so that I feel I can properly balance expectations before the meeting ends.
