@@ -1,0 +1,39 @@
+[11]
+- looked at grid.js for tables, but it does not seem to support edit features
+- tabulator.info seems to support editing
+- gonna go with an html table to get things off the ground
+
+[11:30]
+- theres a tradeoff between simplicity and focus of the exploration vs 
+  how "built out" or complete it feels. I am going to go with simplicity
+  and focus for now, and add things on as they feel needed. Concretely:
+  I'm not going to make the table editable for now.
+- ignoring responsiveness and em-based font-sizing for now
+
+[12:00]
+- I now have a plot and a table showing up
+
+[1:30]
+- I have a point dragging, continuous or discrete
+- todo:
+  - finesse discrete point drag animation
+  - state sync with table
+  - juxtapose multiple data
+  - label axis, add legend
+  - add "selection"
+  - add "undo/redo"
+  - clean up code, document, reflect
+
+[2:00]
+- I'm going to setup a data model so that I can have n points synced with n entries in the table
+
+[3:00]
+- I put aside discrete axis animation / interpolation for now. It should be a dynamics solution, not
+    an easing curve solution, otherwise it will look jumpy.
+  - was looking at https://easings.net/#easeInOutElastic
+- I set up the data model. State sync is working.
+- I need to make it possible to juxtapose multiple data models via color.
+- I want to set up a plot model that has bidirectional binding to the data model; for best practice.
+- I want to componentize the plot and table; for best practice.
+
+- I need to fix the relationship between spatial coordinates and data values in the plot.
