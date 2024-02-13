@@ -10,7 +10,7 @@ This repo contains an exploration of mixed 2D plot and table interactions. It wa
 
 ### Planning
 
-I spent 1 hour actively planning my execution of this project in the morning, and spent the rest of the day (6 hours) on the implementation.
+I time boxed this project to 6 hours and found time today, Feb 13 2024 to complete it. I spent 1 hour actively planning my execution of this project in the morning, and spent the rest of the day (6 hours) on the implementation.
 
 Here is a picture of my plan that I created in TLDraw:
 
