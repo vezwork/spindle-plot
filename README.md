@@ -2,6 +2,10 @@
 
 This repo contains an exploration of mixed 2D plot and table interactions. It was produced as part of the interview process at Spindle.
 
+## Try it out
+
+[link to live demo](https://vezwork.github.io/spindle-plot/dist)
+
 ## Notes
 
 ### Planning
