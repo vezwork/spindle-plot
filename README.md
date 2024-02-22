@@ -20,7 +20,7 @@ Here is a picture of my plan that I created in TLDraw:
 
 https://github.com/vezwork/spindle-plot/assets/11082236/82d314ca-c8c7-429a-9a8c-fb87bf814fa9
 
-For my extended part 2 attempt of this take home, I tried to focus on being creative and trying to have fun making an interactive illustration of selection editing action. I didn't try to write clean code and the code did get quite hacky.
+For my extended part 2 attempt of this take home, I tried to focus on being creative and trying to have fun making an interactive illustration of selection editing action. I didn't try to write clean code and the code did get quite hacky. I spent another 1 hour planning and 6 hours executing part 2.
 
 I made some sketches and aimed to focus on illustrating three interactions/visuals:
 
