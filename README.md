@@ -18,7 +18,7 @@ Here is a picture of my plan that I created in TLDraw:
 
 ### Reflection on the outcome of part 2
 
-<video src='./media/part2.mp4' width=400/></video>
+https://github.com/vezwork/spindle-plot/assets/11082236/82d314ca-c8c7-429a-9a8c-fb87bf814fa9
 
 For my extended part 2 attempt of this take home, I tried to focus on being creative and trying to have fun making an interactive illustration of selection editing action. I didn't try to write clean code and the code did get quite hacky.
 
