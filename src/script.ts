@@ -39,9 +39,17 @@ const data1: Data = { color: "red", values: [] };
 addSyncedDatum(data1, dataTableEl1, { value: [2, 2], highlighted: false });
 addSyncedDatum(data1, dataTableEl1, { value: [3, 3], highlighted: false });
 
-const dataTableEl2 = createTableEl("data 2");
-const data2: Data = { color: "blue", values: [] };
-addSyncedDatum(data2, dataTableEl2, { value: [5, 5], highlighted: false });
-addSyncedDatum(data2, dataTableEl2, { value: [8, 8], highlighted: false });
+export const compareData: Data[] = [data1];
 
-export const compareData: Data[] = [data1, data2];
+let COLOR_PRESETS = ["blue", "YellowGreen", "orange", "teal"];
+let n = 2;
+document.getElementById("clickme")?.addEventListener("click", (e) => {
+  const dataTableEl2 = createTableEl(`data ${n++}`);
+  const data2: Data = { color: COLOR_PRESETS[n - 3], values: [] };
+  for (let i = 0; i < 7; i++)
+    addSyncedDatum(data2, dataTableEl2, {
+      value: [Math.round(Math.random() * 9), Math.random() * 150],
+      highlighted: false,
+    });
+  compareData.push(data2);
+});

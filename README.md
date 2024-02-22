@@ -16,6 +16,41 @@ Here is a picture of my plan that I created in TLDraw:
 
 <img src="./media/plan.svg">
 
+### Reflection on the outcome of part 2
+
+<video src='./media/part2.mp4' width=400/></video>
+
+For my extended part 2 attempt of this take home, I tried to focus on being creative and trying to have fun making an interactive illustration of selection editing action. I didn't try to write clean code and the code did get quite hacky.
+
+I made some sketches and aimed to focus on illustrating three interactions/visuals:
+
+- "clumping" of nodes so that they never overlap.
+
+  I was interested to try this because it resolves
+  the problem of having overlapping and unselectable data points. It visually makes it clear when
+  there are an overwhelming number of data points in an area, which feels relevant to the example we
+  discussed of hiring timelines. If data points overlapping, it would not feel like there are "too many"
+  things going on at once. If users feel that the clumps doen't reflect what "too many" means for them,
+  we could give them control of the size of data points.
+
+- discrete x-axis selection and "squeezing".
+
+  You can currently only define a selection by dragging left-to-right. You can currently only "squeeze"
+  the selection by dragging from the right edge an existing selection to the left. I didn't focus
+  on getting both directions of interaction working because I was aiming rather to explore more.
+
+- stretch: undo/redo and visualizing the history as either a timeline or as transparent nodes.
+
+  I did not get to this.
+
+I find parts of the final interaction satisfying and a good jumping-off point for discussing this type of interaction further. I look forward to your feedback.
+
+Here are some preliminary sketches I made:
+
+<img src="./media/part2sketch.svg" height="200">
+
+<img src="./media/part2sketch2.svg" height="200">
+
 ### Reflection on the outcome
 
 <img src="./media/final.png">
